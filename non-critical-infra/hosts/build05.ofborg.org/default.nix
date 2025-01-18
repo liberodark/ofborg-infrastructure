@@ -21,7 +21,7 @@
 
   systemd.network.networks."10-uplink" = {
     matchConfig.MACAddress = "22:17:4d:04:90:cb";
-    address = [ "185.119.168.15/32" ];
+    address = [ "185.119.168.14/32" ];
     routes = [
       {
         Gateway = "91.224.148.0";
